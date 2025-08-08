@@ -90,3 +90,9 @@ pids
 
 # YoYo AI version control directory
 .yoyo/
+
+# Archived development files
+archives/
+
+# Distribution packages
+dist/

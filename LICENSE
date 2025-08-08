@@ -1,0 +1,39 @@
+MIT License
+
+Copyright (c) 2024 922Proxy FoxyProxy Extension
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+DISCLAIMER:
+
+This extension is designed to work with 922proxy residential proxy service. 
+Users must have a valid 922proxy account and provide their own credentials. 
+The extension developers are not affiliated with 922proxy and provide no 
+guarantees about the proxy service itself.
+
+Users are responsible for:
+- Obtaining valid 922proxy credentials
+- Complying with 922proxy terms of service
+- Using the service responsibly and legally
+- Ensuring compliance with local laws and regulations
+
+The extension stores credentials locally in the browser and does not transmit
+them to any third parties except 922proxy for authentication purposes.

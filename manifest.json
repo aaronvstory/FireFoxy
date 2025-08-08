@@ -1,0 +1,51 @@
+{
+  "manifest_version": 2,
+  "name": "FireFoxy - 922Proxy Manager",
+  "version": "2.0.3",
+  "description": "Generates FoxyProxy configurations with 922proxy USA residential proxies and manages Firefox containers",
+
+  "permissions": [
+    "contextualIdentities",
+    "cookies",
+    "storage",
+    "activeTab",
+    "tabs",
+    "downloads",
+    "webRequest",
+    "webRequestBlocking",
+    "proxy",
+    "management",
+    "notifications",
+    "*://ipinfo.io/*",
+    "*://center.922proxy.com/*"
+  ],
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+
+  "browser_action": {
+    "default_title": "922Proxy FoxyProxy Generator",
+    "default_popup": "popup.html",
+    "default_icon": "icon.svg"
+  },
+
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon.svg"
+  },
+
+  "options_ui": {
+    "page": "foxyproxy-setup.html",
+    "open_in_tab": true
+  },
+
+  "web_accessible_resources": [
+    "foxyproxy-generator.js",
+    "debug.js",
+    "services/*.js",
+    "*.png"
+  ]
+}
